@@ -9,9 +9,11 @@ To complete the QA Take Home assignment for North
 * Overall 31 test cases should be run and displayed on the stdout
 * Both positive and negative test cases are covered in the script
 * No properietary software is used to complete the assignment
-* pytest is the python framework 
+* pytest is the python test framework for unit and functional testing
+
 ## Getting Started / Build Instructions
 Please follow 1 of below 3 instructions set to execute the test cases
+
 ### Using zip file
 1. Download the wetransfer zip file 
 2. Unzip the file using 'gunzip North_assignment.gz'

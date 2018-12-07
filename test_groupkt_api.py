@@ -11,7 +11,6 @@ log = logging.getLogger()
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 URI = 'http://services.groupkt.com/country'
 
-
 @pytest.mark.parametrize('args', ['all', pytest.param('', marks=pytest.mark.xfail),
                                   pytest.param('asdf', marks=pytest.mark.xfail),
                                   pytest.param('static', marks=pytest.mark.xfail),
