@@ -16,7 +16,7 @@ Please follow 1 of below 3 instructions set to execute the test cases
 
 ### Using zip file
 1. Download the wetransfer zip file 
-2. Unzip the file using 'gunzip North_assignment.gz'
+2. Unzip the file using 'tar -xvf North_assignment.tar.gz'
 3. Switch to the unzipped directory
 4. Run `pytest test_groupkt_api.py -qsvvv`
 
